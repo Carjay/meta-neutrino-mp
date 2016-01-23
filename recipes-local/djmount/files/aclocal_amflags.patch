@@ -1,0 +1,13 @@
+Index: djmount-0.71/Makefile.am
+===================================================================
+--- djmount-0.71.orig/Makefile.am	2006-08-27 22:12:33.000000000 +0200
++++ djmount-0.71/Makefile.am	2016-01-23 21:42:36.804534792 +0100
+@@ -5,7 +5,7 @@
+ # Copyright (C) 2005 Rémi Turboult <r3mi@users.sourceforge.net>
+ #
+ 
+-ACLOCAL_AMFLAGS = -I m4 -I gl/m4 -I libupnp/m4
++ACLOCAL_AMFLAGS = -I libupnp/m4 -I m4 -I gl/m4
+ 
+ CLEANFILES	= IUpnpErrFile.txt IUpnpInfoFile.txt
+ 
